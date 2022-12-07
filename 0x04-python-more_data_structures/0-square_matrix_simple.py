@@ -1,18 +1,11 @@
 #!/usr/bin/python3
 
-matrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-]
-new_matrix = []
-row1 = []
-row2 = []
-row3 = []
-
 
 def square_matrix_simple(matrix=[]):
-    global row2, row1
+    row1 = []
+    row2 = []
+    row3 = []
+    
     new_matrix = matrix[:]
 
     for row in range(0, len(new_matrix)):
