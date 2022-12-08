@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 
+
 def only_diff_elements(set_1, set_2):
-    uni = set_1.union(set_2)
-    list = []
-    for x in uni:
-        list.append(x)
-    return list
+    """
+    A function that returns a set of all elements
+    present in only one set.
+    """
+    return (set_1 ^ set_2)
