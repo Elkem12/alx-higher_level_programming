@@ -1,1 +1,1 @@
-## Hello World in Python!
+This directory contains introductory tasks to python.

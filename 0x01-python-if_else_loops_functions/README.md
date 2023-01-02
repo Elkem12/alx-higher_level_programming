@@ -1,2 +1,1 @@
-## Programming in python part II 
-Control structures and functions
+This directory contains if/else conditional codes
